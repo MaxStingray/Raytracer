@@ -1,0 +1,41 @@
+﻿Build started 25/02/2016 17:15:59.
+     1>Project "C:\Users\Joshua\Downloads\TinyRay(1)\TinyRay\TinyRay\TinyRay.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt RayTracer.cpp
+         RayTracer.cpp
+     1>RayTracer.cpp(28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>RayTracer.cpp(228): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>RayTracer.cpp(229): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>RayTracer.cpp(230): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>RayTracer.cpp(271): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>RayTracer.cpp(272): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>RayTracer.cpp(280): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>RayTracer.cpp(281): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>RayTracer.cpp(282): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joshua\Downloads\TinyRay(1)\TinyRay\Release\TinyRay.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Joshua\Downloads\TinyRay(1)\TinyRay\Release\TinyRay.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joshua\Downloads\TinyRay(1)\TinyRay\Release\TinyRay.lib" /MACHINE:X86 /SAFESEH Release\TinyRay.res
+         Release\Box.obj
+         Release\Camera.obj
+         Release\Light.obj
+         Release\Material.obj
+         Release\OGLApplication.obj
+         Release\OGLWindow.obj
+         Release\Plane.obj
+         Release\Ray.obj
+         Release\RayTracer.obj
+         Release\Scene.obj
+         Release\Sphere.obj
+         Release\TinyRayMain.obj
+         Release\Triangle.obj
+         Release\Vector4D.obj
+         Generating code
+         1 of 394 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           1 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         TinyRay.vcxproj -> C:\Users\Joshua\Downloads\TinyRay(1)\TinyRay\Release\TinyRay.exe
+     1>Done Building Project "C:\Users\Joshua\Downloads\TinyRay(1)\TinyRay\TinyRay\TinyRay.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.86

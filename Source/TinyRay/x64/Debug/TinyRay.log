@@ -1,0 +1,33 @@
+﻿Build started 30/01/2016 13:07:40.
+     1>Project "C:\Users\Joshua\Downloads\TinyRay(1)\TinyRay\TinyRay\TinyRay.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt RayTracer.cpp Sphere.cpp Triangle.cpp
+         Triangle.cpp
+         Sphere.cpp
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\sphere.cpp(41): error C2374: 'result': redefinition; multiple initialization
+         c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\sphere.cpp(36): note: see declaration of 'result'
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\sphere.cpp(43): error C2374: 't': redefinition; multiple initialization
+         c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\sphere.cpp(38): note: see declaration of 't'
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\sphere.cpp(47): error C2086: 'Vector4D normal': redefinition
+         c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\sphere.cpp(39): note: see declaration of 'normal'
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\sphere.cpp(49): error C2086: 'Vector4D intersection_point': redefinition
+         c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\sphere.cpp(40): note: see declaration of 'intersection_point'
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\sphere.cpp(81): error C2088: '*': illegal for class
+         RayTracer.cpp
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\raytracer.cpp(28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\raytracer.cpp(85): error C3861: 'glClearColor': identifier not found
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\raytracer.cpp(86): error C2065: 'GL_COLOR_BUFFER_BIT': undeclared identifier
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\raytracer.cpp(86): error C3861: 'glClear': identifier not found
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\raytracer.cpp(119): error C3861: 'glColor3f': identifier not found
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\raytracer.cpp(120): error C3861: 'glRecti': identifier not found
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\raytracer.cpp(122): error C3861: 'glFlush': identifier not found
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\raytracer.cpp(128): error C3861: 'glFlush': identifier not found
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\raytracer.cpp(209): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\raytracer.cpp(210): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\joshua\downloads\tinyray(1)\tinyray\tinyray\raytracer.cpp(211): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+     1>Done Building Project "C:\Users\Joshua\Downloads\TinyRay(1)\TinyRay\TinyRay\TinyRay.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.60
